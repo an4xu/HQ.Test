@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <PackageReference Include="Binance.Net" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HQ.ServiceDefaults\HQ.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\StockPrices.Client\StockPrices.Client.csproj" />
+  </ItemGroup>
+
+</Project>
